@@ -53,3 +53,4 @@ custom RHEL 7.7 server image, and setting up the infrastructure to deploy Opensh
 
 ###### Install / Configure the GNOME GUI on your instance
 
+
