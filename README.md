@@ -10,7 +10,7 @@ images, for use on GCP (Google Cloud Platform).
 This guide is part of a series of guides aimed at setting up an Openshift Cluster on GCP, leveraging a 
 custom RHEL 7.7 server image, and setting up the infrastructure to deploy Openshift on GCP.
 
-######Additional Guides
+###### Additional Guides
 
 - [Creating a custom RHEL 7.7 Server Image on GCP](https://github.com/chainlynx/google-cloud-rhel-image) 
 - [Deploying Openshift Enterprise on GCP](https://github.com/chainlynx/google-cloud-openshift-ocp)
@@ -23,7 +23,7 @@ custom RHEL 7.7 server image, and setting up the infrastructure to deploy Opensh
 
 ### Quick Start
 
-######Creating a Centos 7 instance
+###### Creating a Centos 7 instance
 
 1. Login to your google account at https://cloud.google.com/
 2. In the top right, select "Console" or navigate to https://console.cloud.google.com
