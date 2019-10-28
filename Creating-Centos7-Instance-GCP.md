@@ -27,6 +27,7 @@
         - Select the **Networking** tab.
         - Add a **Network tag**.
             - Example: ***vnc-server***
+            - Note: We we use this tag to enable VNC access to the instance through the GCP firewall
         - Leave the **default** network interface.
         - (Optionally) You can change this network interface to use a custom interface. 
         
@@ -34,5 +35,6 @@
         - Note: You can leave the rest of the settings to their defaults for the purpose of this example. 
 
    - You should now be able to SSH into your new instance, depending on the SSH key configured in your projects metadata, as this gets transferred by GCP into your instance as a public key upon creation.
+        - For more information on managing SSH keys on GCP, see [Managing SSH Keys in metadata](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys)
    
 Next up: [Installing / Configuring GNOME](Installing-Configuring-GNOME.md)
