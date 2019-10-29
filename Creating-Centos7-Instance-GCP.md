@@ -37,4 +37,4 @@
    - You should now be able to SSH into your new instance, depending on the SSH key configured in your projects metadata, as this gets transferred by GCP into your instance as a public key upon creation.
         - For more information on managing SSH keys on GCP, see [Managing SSH Keys in metadata](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys)
    
-Next up: [Installing / Configuring GNOME](Installing-Configuring-GNOME.md)
+Next up: [Installing / Configuring GNOME and VNC Server](Installing-Configuring-GNOME.md)
