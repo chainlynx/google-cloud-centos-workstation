@@ -125,4 +125,4 @@ The reason I chose to use a Centos 7 server and adding the GNOME GUI was to prov
    At this point you should be viewing the desktop of your Centos 7 desktop GUI once you connect. 
    
    
-Next up: [Installing / Configuring GNOME](Installing-Configuring-GNOME.md)
+Next up: [Creating a custom RHEL 7.7 Server Image on GCP](https://github.com/chainlynx/google-cloud-rhel-image)
