@@ -473,4 +473,5 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-images/
+# Uncomment to block image paths from repo
+#images/
