@@ -45,11 +45,11 @@ VNC (Virtual Network Computing) Server allows you to access an instance using re
 
    Default "vncserver@:4.service" file
 
-   ![Screenshot](./images/Screenshot 2019-09-30_14-13-54-241.png)
+   ![Screenshot](images/Screenshot 2019-09-30_14-13-54-241.png)
    
    Add your chosen username...
    
-   ![Screenshot](./images/Screenshot 2019-09-30_14-31-21-937.png)
+   ![Screenshot](images/Screenshot 2019-09-30_14-31-21-937.png)
    
 - After updating the VNC config for your user, we need to set the firewall rule if the firewall is enabled on your linux instance.
 
@@ -70,7 +70,7 @@ VNC (Virtual Network Computing) Server allows you to access an instance using re
   
   Then run the *vncserver* command to set the password as shown below...
   
-     ![Screenshot](./images/Screenshot 2019-09-30_14-47-32-585.png)
+     ![Screenshot](images/Screenshot 2019-09-30_14-47-32-585.png)
      
 - Now start and enable the VNC service at boot time. Execute the following commands as **root**.
 
@@ -97,11 +97,11 @@ VNC (Virtual Network Computing) Server allows you to access an instance using re
   
   When you execute the command to view the status, you'll see one of the following scenarios
   
-  ![Screenshot](./images/Screenshot 2019-10-28_16-20-24-242.png)
+  ![Screenshot](images/Screenshot 2019-10-28_16-20-24-242.png)
   
   or
   
-  ![Screenshot](./images/Screenshot 2019-10-28_16-20-55-406.png)
+  ![Screenshot](images/Screenshot 2019-10-28_16-20-55-406.png)
   
   However if you execute the following:
   
@@ -109,7 +109,7 @@ VNC (Virtual Network Computing) Server allows you to access an instance using re
   
   You'll notice you have started a VNC server on display port 1.
   
-  ![Screenshot](./images/Screenshot 2019-10-28_16-32-47-360.png)
+  ![Screenshot](images/Screenshot 2019-10-28_16-32-47-360.png)
   
   This is misleading because it uses the display port :1, however it's using your configuration and listening on the display port you specified, in our case this is :4 or 5904, even though it gives you the error message mentioned above.
   
