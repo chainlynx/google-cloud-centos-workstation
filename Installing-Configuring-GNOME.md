@@ -45,7 +45,7 @@ VNC (Virtual Network Computing) Server allows you to access an instance using re
 
    Default "vncserver@:4.service" file
 
-   ![Screenshot](images/Screenshot 2019-09-30_14-13-54-241.png)
+   ![Screenshot](images/Screenshot-2019-09-30_14-13-54-241.png)
    
    Add your chosen username...
    
