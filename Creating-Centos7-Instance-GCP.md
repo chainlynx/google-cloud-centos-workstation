@@ -2,10 +2,10 @@
 
 **Note**: For more details, or more advanced configurations, see [Creating and Starting a VM Instance](https://cloud.google.com/compute/docs/instances/create-start-instance).
 
-1. Login to your google account at https://cloud.google.com/
-2. In the top right, select "Console" or navigate to https://console.cloud.google.com
+1. Login to your google account at [Google Cloud Platform](https://cloud.google.com/)
+2. In the top right, select "Console" or navigate to [Google Cloud Console](https://console.cloud.google.com)
 3. Select your desired project, or create a new project.
-4. Go to the VM Instances page (https://console.cloud.google.com/compute/instances)
+4. Go to the VM Instances page [VM Compute Instances](https://console.cloud.google.com/compute/instances)
 5. At the top, select **Create Instance**
    - Specify a **Name** for your instance: 
         - Example: ***centos-desktop***

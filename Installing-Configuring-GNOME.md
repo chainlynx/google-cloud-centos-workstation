@@ -60,11 +60,12 @@ The reason I chose to use a Centos 7 server and adding the GNOME GUI was to prov
 - Next, switch back to your user, from root. In this instance I SSH'd into this box with the gsa-admin user, the same user I'm setting up the VNC server for, therefore you can simply exit the root user.
 
    ```$ exit```
+   
   Then run the *vncserver* command to set the password as shown below...
   
      ![Screenshot](images/Screenshot-2019-09-30_14-47-32-585.png)
      
-- Now start and enable the VNC service at boot time.
+- Now reload to pick up your new config, enable the VNC service at boot time, and start the VNC server.
 
    ```
    sudo systemctl daemon-reload
@@ -73,7 +74,7 @@ The reason I chose to use a Centos 7 server and adding the GNOME GUI was to prov
       
    ```
    
-#### Gotchas (TigerVNC at least for Centos 7 in my experience is a bit quirky)
+### Gotchas (TigerVNC at least for Centos 7 in my experience is a bit quirky)
 
 - When running the previous command:
 
@@ -107,7 +108,7 @@ The reason I chose to use a Centos 7 server and adding the GNOME GUI was to prov
   
   At this point you should now be able to login with your VNC client using the IP address of your instance, and the port 5904. Despite the error messages. I spent a bit of time trying to resolve the messages, however with the VNC server working to remote into your instance, I didn't want to spend more time on this. If anyone would like to send an update or solution to this, please do!
   
-#### Your MAC has a VNC client built in, and easy to use!
+### Your MAC has a VNC client built in, and easy to use!
 
 - OS X has a built in VNC (Screen Sharing) server, but it is a little known feature that it also has a built in VNC client. No additional software is necessary.
 
@@ -121,5 +122,7 @@ The reason I chose to use a Centos 7 server and adding the GNOME GUI was to prov
    
    Enter the VNC address of your instance in the format "vnc://[instance-ip-address]:5904", using the port we setup and provided access to above. 
    
-   At this point you should be viewing the desktop of your Centos 7 desktop GUI. 
+   At this point you should be viewing the desktop of your Centos 7 desktop GUI once you connect. 
    
+   
+Next up: [Installing / Configuring GNOME](Installing-Configuring-GNOME.md)
